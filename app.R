@@ -57,6 +57,14 @@ ui <- fluidPage(
       6,
       dataTableOutput("senateTable")
     )
+  ),
+  fluidRow(
+    column(
+      12,
+      hr(),
+      HTML("This project was created by and is maintained by <a href=mailto:hollander@gmail.com>Michael Hollander</a>.  You can find the code for this page on github here:<a href='https://github.com/mhollander/pa-vote-explorer' target=_blank>Github Link</a>.  All of the data for this website comes from <a href=https://ows.doleta.gov/unemploy/DataDownloads.asp target=_blank>the US Department of Labor</a>.")
+      
+    )
   )
 )
 
